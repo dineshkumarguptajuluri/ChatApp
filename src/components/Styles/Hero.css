@@ -1,0 +1,122 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: bisque; */
+}
+.left-h{
+    padding: 2rem;
+    padding-top:1.5rem ;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+.right-h{
+    flex: 1;
+    position: relative;
+}
+.hero-text{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-transform: capitalize;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: rgb(22, 27, 32);
+    text-overflow: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text{
+    color:transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color:rgb(22, 27, 32);
+}
+.text1{
+    font-size: 1rem;
+    font-weight: 200;
+    text-transform: none;
+    letter-spacing: 1px;
+    width: 80%;
+}
+.figures{
+    display: flex;
+    gap: 2rem;
+}
+.figures>div{
+    display: flex;
+    flex-direction: column;
+}
+.figures>div>span:nth-of-type(1){
+    color: rgb(22, 27, 32);
+    font-size: 2rem;
+}
+.figures>div>span:nth-of-type(2){
+    color: rgb(22, 27, 32);
+    font-size: 1rem;
+}
+.btn{
+    background-color: orangered;
+    color: aliceblue;
+    padding: 0.5rem;
+    font-weight: bold;
+    border: 4px  solid transparent;
+    transition: 300ms all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.hero-button{
+    display: flex;
+    gap: 1rem;
+    font-weight: normal;
+}
+.hero-button>:nth-child(1){
+    background-color: orangered;
+    width: 8rem;
+}
+
+.hero-button>:nth-child(2){
+    background-color: rgb(231, 205, 193);
+    color: rgb(51, 29, 19);
+    width: 8rem;
+    border: 2px solid orangered;
+}
+.btn1{
+    background-color: rgb(73, 158, 223);
+    color: aliceblue;
+    padding: 0.5rem;
+    font-weight: bold;
+    border: 4px  solid transparent;
+    transition: 300ms all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn1:hover{
+    cursor: pointer;
+}
+.right-h>.btn1:nth-child(1){
+    position: absolute;
+    right: 10rem;
+    top: 2rem;
+    color: beige;
+    width: 6rem;
+    border-radius: 20px;
+}
+.right-h>.btn1:nth-child(2){
+    background-color: rgb(162, 230, 237);
+    color: rgb(51, 29, 19);
+    border: 2px solid rgb(54, 106, 248);
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+    width: 6rem;
+    border-radius: 20px;
+}

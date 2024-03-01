@@ -1,0 +1,64 @@
+.vit{
+    display: flex;
+    gap: 1rem;
+    padding: 0 2rem;
+  }
+  .left-v{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    gap: 2rem;
+    text-transform: uppercase;
+    color: black ;
+    color: oran;
+  }
+  .left-v>:nth-child(1),
+  .left-v>:nth-child(2){
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  .left-v>:nth-child(4){
+    text-transform: none;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 40px;
+  }
+  .right-v{
+    flex: 1;
+    position: relative;
+  }
+  .right-v>img{
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    box-shadow: 1px 0.5px 4px 2px black;
+    right: 10rem;
+    top: 10rem;
+  }
+  .right-v>:nth-child(1){
+    position: absolute;
+    width: 17rem ;
+    height: 20rem;
+    border: 2px solid rgb(68, 172, 80);
+    background-color: transparent;
+    right: 11rem;
+    top: 8.9rem;
+  }
+  .right-v>:nth-child(2){
+    position: absolute;
+    width: 17rem ;
+    height: 20rem;
+    background-color: green ;
+    right: 8rem;
+    top: 11.6rem;
+  }
+  .arrows{
+    padding-left: 2rem;
+  }
+  .arrows>img{
+    width: 1.5rem;
+    cursor: pointer;
+    padding-right: 0.2rem;
+    padding-top:30rem;
+  }
